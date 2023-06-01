@@ -1,0 +1,2 @@
+batch,epoch,lr,decay,seed
+64,100,0.0001,0.0001,120
