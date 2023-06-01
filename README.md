@@ -30,8 +30,16 @@
 
 ## 网络构建
 
+使用CNN+残差连接
+
+<img src="https://typora-images-1309988842.cos.ap-beijing.myqcloud.com/img/image-20230601114904010.png" alt="image-20230601114904010" style="zoom:50%;" />
 
 ## 训练结果
 
+训练验证结果
 
+<img src="https://typora-images-1309988842.cos.ap-beijing.myqcloud.com/img/image-20230601114951076.png" alt="image-20230601114951076" style="zoom: 50%;" />
 
+测试结果
+
+<img src="https://typora-images-1309988842.cos.ap-beijing.myqcloud.com/img/image-20230601115012703.png" alt="image-20230601115012703" style="zoom:50%;" />
