@@ -1,7 +1,6 @@
 from PIL import Image
 from os import path
 import pandas as pd
-import torch
 from tqdm import tqdm
 from torch.utils import data
 from torchvision import transforms
@@ -16,9 +15,9 @@ class PokerDataset(data.Dataset):
         self.data = None  # data of sample
         self.target = None  # target of sample
 
-        self.root_dir = params.ROOT_DIR
+        self.root_dir: str = params.ROOT_DIR
         self.data_dirname = dataset
-        self.target_name = params.TARGET_FILENAME
+        self.target_name: str = params.TARGET_FILENAME
 
         self.data_table = pd.read_csv(path.join(self.root_dir, self.target_name))
         self.data_table = self.data_table[self.data_table['dataset'] == dataset]
